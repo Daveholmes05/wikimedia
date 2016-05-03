@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: white;
+	color: black;
+}
+
+p {
+	margin: 10px;
+}
+
+.wiki {
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pright {
+  float: right;
+  font-weight: bolder;
+}
+
+section {
+  margin: 3% 14%;
+}
+
+.icons {
+  display: flex;
+/*  justify-content: space-between;
+*/  margin: 5% 10%;
+  flex-wrap: wrap;	
+/*  margin: auto;
+*/}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 2% 5%;
+}
